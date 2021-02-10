@@ -1,10 +1,13 @@
 import './App.css';
+import Vince from "./assets/Vince.jpg"
 
 function App() {
   return (
     <div className="App">
-     <h1>About Us</h1>
-      <img src="./Vince.jpg"></img>
+      <div className="head">
+        <h1>About Us</h1>
+      </div>
+      <img className="vince" src={Vince} ></img>
       <p> Vince Hintermeister: Hailing from Tama Iowa Vince is an <br/>
           avid art creator and a self-proclaimed super geek.</p>
      <h1>About Us</h1>
